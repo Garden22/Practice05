@@ -13,5 +13,4 @@ public class MemberApp {
 		m03.showInfo();
 		
 	}
-
 }

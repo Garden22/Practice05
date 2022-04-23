@@ -14,15 +14,19 @@ public class FriendApp {
         //친구정보 3명 입력 로직 --> 반복문 사용
         for (int i = 0; i < 3; i++) {
         	Friend friend = new Friend();
+        	
         	System.out.print("이름: ");
         	friend.setName(sc.nextLine());
         	System.out.print("핸드폰: ");
         	friend.setHp(sc.nextLine());
         	System.out.print("학교: ");
         	friend.setSchool(sc.nextLine());
+        	
         	friendArray[i] = friend;
+        	
         	System.out.println("----------------------------------");
         }
+        
         
         // 친구정보 출력
         for (int i = 0; i < friendArray.length; i++) {
@@ -33,5 +37,4 @@ public class FriendApp {
 
         sc.close();
     }
-
 }

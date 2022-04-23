@@ -14,7 +14,6 @@ public class GoodsApp {
 		cup.showInfo();
 		
 	}
-
 }
 
 

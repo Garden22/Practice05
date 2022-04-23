@@ -5,14 +5,18 @@ public class Base {
     public void service(String state) {
         if (state.equals("낮")) {
         	day();
+        	
         } else if (state.equals("밤")) {
         	night();
+        	
         } else if (state.equals("오후")) {
         	afternoon();
+        	
         }
         //코드작성할것
     }
 
+    
     public void day() {
         System.out.println("낮에는 열심히 수업듣자");
     }

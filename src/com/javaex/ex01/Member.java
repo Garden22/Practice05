@@ -6,6 +6,7 @@ public class Member {
 	private String name;
 	private int point;
 
+	
 	//생성자
 	public Member() {
 		
@@ -17,16 +18,20 @@ public class Member {
 		this.point = point;
 	}
 	
+	
 	//gs 메서드
 	public String getId() {
 		return id;
 	}
+	
 	public void setId(String id) {
 		this.id = id;
 	}
+	
 	public int getPoint() {
 		return point;
 	}
+	
 	public void setPoint(int point) {
 		this.point = point;
 	}

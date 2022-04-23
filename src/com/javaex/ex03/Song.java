@@ -9,6 +9,7 @@ public class Song {
 	private String year;
 	private int track;
 	
+	
 	//생성자
 	public Song() {
 		System.out.println("Song(파라미터0개)");
@@ -28,8 +29,6 @@ public class Song {
 		this.track = track;
 		System.out.println("Song(파라미터6개)");
 	}
-	
-	
 	
 	
 }

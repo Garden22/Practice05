@@ -20,6 +20,7 @@ public class Book {
 		this.stateCode = 1;
 	}
 	
+	
 	//getset 메소드
 	public int getBookNo() {
 		return bookNo;
@@ -54,6 +55,7 @@ public class Book {
 		}
 	}
 	
+	
 	public void print() {
 		String state;
 		if (this.stateCode == 1) {
@@ -64,8 +66,4 @@ public class Book {
 		System.out.println(bookNo + " 책 제목:" + title + ", 작가:" + author + ", 대여 유무:" + state);
 	}
 	
-    
-    
-    
-    
 }

@@ -34,11 +34,11 @@ public class Goods {
 		this.price = price;
 	}
 		
+	
 	//기본메서드
 	public void showInfo() {
 		System.out.println("상품명:" + name + ", 가격:" + price);
 	}
-	
 	
 }
 
