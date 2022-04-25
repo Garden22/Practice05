@@ -8,7 +8,7 @@ public class CConverter { // 아직 안배움
         CConverter.rate = rate;
     }
     
-    public static double toDoller(double won){
+    public static double toDollar(double won){
         return won / rate;
     }
 
